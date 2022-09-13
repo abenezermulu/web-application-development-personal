@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "some text text"
+    "some here there";
+
+    height: 50vh;
+}
+
+.some {
+    grid-area: some;
+    background: rgb(167, 167, 167);
+
+}
+
+.here {
+    grid-area: here;
+    background: rgb(185, 184, 184);
+
+}
+
+.text {
+    grid-area: text;
+    background: rgb(112, 112, 112);
+
+}
+
+.there {
+    grid-area: there;
+    background: rgb(133, 133, 133);
+}
