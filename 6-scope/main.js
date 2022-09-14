@@ -113,3 +113,15 @@ function main() {
 }
 main();
 console.log("x7 is:" + x);
+
+function a() {
+    var x = 10; 
+    function b(){
+      x = 20; 
+    }
+    b();
+  
+    console.log(x);
+  }
+  
+  a();
